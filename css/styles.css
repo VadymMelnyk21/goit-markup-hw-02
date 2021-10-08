@@ -32,6 +32,28 @@ body {
     color: var(--accent-color);
 }
 
+/* all style */
+
+
+.nav-link.current {
+    color: var(--accent-color);
+
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+  }
+
+.link {
+    text-decoration: none;
+}
 
 /* header */
 
@@ -56,7 +78,6 @@ body {
 }
 .nav-link {
     font-weight: 500;
-    font-size: 14px;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
     text-decoration: none;
@@ -64,7 +85,6 @@ body {
 
 .contacts-link {
     font-weight: 500;
-    font-size: 14px;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     text-decoration: none;
@@ -109,10 +129,6 @@ body {
     background-color: var(--basic-white-color);
 }
 
-
-.invisible-title {
-    visibility: hidden;
-}
 
 .title-second {
 font-weight: 700;
@@ -182,6 +198,7 @@ color: var(--title-text-color);
 .text-portfolio {
     font-size: 16px;
     line-height: 1.87;
+    color: var(--primary-text-color);
 }
 
 
